@@ -1,0 +1,19 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1625cd5b_002D45cc_002D45e5_002D8047_002D1c9b160cfed7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Should_GetCorrectHammingCodeFromInputByte" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::154C41D4-C2AC-44C1-8901-5FD1ABF70281::net5.0::HammingCode.Tests.Tests.Should_GetCorrectHammingCodeFromInputByte&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5deacbd7_002D4826_002D40b9_002D8f5b_002D97ab5c449ff4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Should_GetCorrectHammingCodeFromInputByte #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::154C41D4-C2AC-44C1-8901-5FD1ABF70281::net5.0::HammingCode.Tests.Tests.Should_GetCorrectHammingCodeFromInputByte&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::154C41D4-C2AC-44C1-8901-5FD1ABF70281::net5.0::HammingCode.Tests.Tests.Should_AddErrors&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::154C41D4-C2AC-44C1-8901-5FD1ABF70281::net5.0::HammingCode.Tests.Tests.Should_FindError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::154C41D4-C2AC-44C1-8901-5FD1ABF70281::net5.0::HammingCode.Tests.Tests.Should_FixSingleError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::154C41D4-C2AC-44C1-8901-5FD1ABF70281::net5.0::HammingCode.Tests.Tests.Should_FixSingleError_OrNoErrors&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::154C41D4-C2AC-44C1-8901-5FD1ABF70281::net5.0::HammingCode.Tests.Tests.Should_DecodeFixedMessage&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::154C41D4-C2AC-44C1-8901-5FD1ABF70281::net5.0::HammingCode.Tests.Tests.Should_FixSingleError_AllPossibleCases&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::154C41D4-C2AC-44C1-8901-5FD1ABF70281::net5.0::HammingCode.Tests.Tests.Should_NotChangeInputIfNoErrors&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::154C41D4-C2AC-44C1-8901-5FD1ABF70281::net5.0::HammingCode.Tests.Tests.Should_FailIfMoreThanOneError&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

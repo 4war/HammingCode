@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net5.0-windows</TargetFramework>
+        <UseWindowsForms>true</UseWindowsForms>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Model\Model.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Controls\Bit.cs">
+        <SubType>UserControl</SubType>
+      </Compile>
+      <Compile Update="Controls\HammingMatrix.cs">
+        <SubType>UserControl</SubType>
+      </Compile>
+      <Compile Update="Controls\Matrix.cs">
+        <SubType>UserControl</SubType>
+      </Compile>
+      <Compile Update="Controls\InputWordMatrix.cs">
+        <SubType>UserControl</SubType>
+      </Compile>
+      <Compile Update="Controls\ErrorMatrix.cs">
+        <SubType>UserControl</SubType>
+      </Compile>
+      <Compile Update="Controls\MessageMatrix.cs">
+        <SubType>UserControl</SubType>
+      </Compile>
+      <Compile Update="Controls\PositionOfError.cs">
+        <SubType>UserControl</SubType>
+      </Compile>
+      <Compile Update="Controls\FixedMessage.cs">
+        <SubType>UserControl</SubType>
+      </Compile>
+      <Compile Update="Controls\MatrixWithControlBits.cs">
+        <SubType>UserControl</SubType>
+      </Compile>
+      <Compile Update="Controls\DecodedWordMatrix.cs">
+        <SubType>UserControl</SubType>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Ninject" Version="3.3.6" />
+    </ItemGroup>
+
+</Project>
