@@ -1,4 +1,5 @@
-﻿using Model;
+﻿using HammingCode.Controls;
+using Model;
 
 namespace HammingCode
 {
@@ -17,11 +18,24 @@ namespace HammingCode
             
         }
 
-        public void UpdateHammingCode()
+        public void Update()
         {
             var inputWord = InputWord.ToByte();
             var hammingCode = inputWord.ToHammingCode();
             HammingCode.InsertValue(hammingCode);
+
+            var error = Error.ToShort();
+            var message = hammingCode.AddErrorMatrix(error);
+            Message.InsertValue(message);
+
+            var wrongBit = message.GetWrongBit();
+            PositionOfError.InsertValue(wrongBit);
+
+            var fixedMessage = message.FixMessage(wrongBit);
+            FixedMessage.InsertValue(fixedMessage);
+
+            var decodedMessage = fixedMessage.Decode();
+            DecodedMessage.InsertValue(decodedMessage);
         }
     }
 }

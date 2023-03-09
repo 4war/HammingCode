@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using HammingCode.Controls;
 
 namespace HammingCode
 {

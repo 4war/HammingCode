@@ -10,6 +10,9 @@ namespace HammingCode.Controls
             Location = new Point(x: Bit.Static.MarginX,
                 y: 2 * (Bit.Static.MarginY + Bit.Static.Label.Height + Bit.Static.Height) + Bit.Static.MarginY);
 
+            foreach (var bit in Bits)
+                bit.Click += (_, _) => controller.Update();
+            
             InitializeComponent();
         }
     }

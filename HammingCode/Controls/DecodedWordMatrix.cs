@@ -12,6 +12,11 @@ namespace HammingCode.Controls
                 7 * (Bit.Static.MarginY + Bit.Static.Label.Height + Bit.Static.Height) + Bit.Static.MarginY
                 );
 
+            foreach (var bit in Bits)
+            {
+                bit.Enabled = false;
+            }
+
             InitializeComponent();
         }
     }
